@@ -1,0 +1,46 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 28px;
+  background: #3d7352;
+  color: #fafafa;
+}
+
+.app-header a {
+  color: #62b6ff;
+  text-decoration: none;
+}
+
+.app-header a:hover {
+  text-decoration: underline;
+}
+
+.app-header a.active {
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.app-header a + a {
+  margin-left: 10px;
+}
+
+.app-main {
+  font-size: 30px;
+  flex: 1;
+  overflow: auto;
+}
+
+.app-footer {
+  height: 50px;
+  background: #eae6c6;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,14 @@
+#home-main {
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#home-main > .section {
+  width: 340px;
+  border-radius: 6px;
+  background: #eee;
+  margin: 20px;
+}
