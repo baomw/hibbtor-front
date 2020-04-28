@@ -19,3 +19,7 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.4);
 }
+
+body {
+  font-family: -apple-system, "Microsoft YaHei", Arial, sans-serif;
+}

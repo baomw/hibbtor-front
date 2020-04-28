@@ -11,10 +11,10 @@ export default class App extends React.PureComponent {
         <header className="app-header">
           {/*<NavLink to="/index">首页</NavLink>*/}
           <div>
-            <NavLink to="/home">唐诗</NavLink>
-            <NavLink to="/home">宋词</NavLink>
-            <NavLink to="/home">元曲</NavLink>
-            <NavLink to="/home">古典小说</NavLink>
+            <NavLink to="/home">按钮1</NavLink>
+            <NavLink to="/home">按钮2</NavLink>
+            <NavLink to="/home">按钮3</NavLink>
+            <NavLink to="/home">按钮4</NavLink>
           </div>
           <div>
             <NavLink to="/login">登陆</NavLink>

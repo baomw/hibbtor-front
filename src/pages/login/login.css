@@ -1,0 +1,11 @@
+.login-container {
+  width: 500px;
+  margin: 40px auto;
+}
+
+.login-container > h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}

@@ -1,4 +1,5 @@
 import redirect from './modules/router/redirect';
+import {routeGuard} from "./modules/router/route-guard";
 
 export default [
   {
@@ -14,8 +15,14 @@ export default [
         component: require('./pages/index').default
       },
       {
-        path: '/home',
-        component: require('./pages/home').default
+        path: '/home/:type?',
+        component: routeGuard((props, next) => {
+          if (window.isLogin) {
+            next();
+          } else {
+            next('/login')
+          }
+        }, require('./pages/home').default)
       },
       {
         path: '/login',

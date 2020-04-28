@@ -33,7 +33,6 @@
 }
 
 .app-main {
-  font-size: 30px;
   flex: 1;
   overflow: auto;
 }
