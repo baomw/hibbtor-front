@@ -3,7 +3,7 @@ import {Button} from "antd";
 
 export default function createCheckCodeButton(option = {}) {
   option = Object.assign({
-    seconds: 5,
+    seconds: 60,
     text: '发送验证码'
   }, option);
 

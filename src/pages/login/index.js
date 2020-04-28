@@ -7,7 +7,7 @@ export default class Login extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      username: '',
+      userName: '',
       password: '',
     }
   }
@@ -46,16 +46,14 @@ export default class Login extends React.PureComponent {
               },
             ]}>
             <Input
-              value={this.state.username}
+              value={this.state.userName}
               onChange={e => {
                 this.setState({
-                  username: e.target.value
+                  userName: e.target.value
                 })
               }}
               placeholder="请输入用户名"/>
           </Form.Item>
-
-
           <Form.Item
             {...formItemLayout}
             label="密码"
